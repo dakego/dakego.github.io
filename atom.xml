@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-23T15:10:15.943Z</updated>
+  <updated>2018-03-17T09:58:49.495Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,47 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/01/23/%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2018/01/23/文章/</id>
-    <published>2018-01-23T15:12:23.534Z</published>
-    <updated>2018-01-23T15:10:15.943Z</updated>
+    <title>科研？瞎搞</title>
+    <link href="http://yoursite.com/2018/03/17/%E7%A7%91%E7%A0%94%EF%BC%9F%E7%9E%8E%E6%90%9E/"/>
+    <id>http://yoursite.com/2018/03/17/科研？瞎搞/</id>
+    <published>2018-03-17T09:31:12.000Z</published>
+    <updated>2018-03-17T09:58:49.495Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="2018年第一篇文章"><a href="#2018年第一篇文章" class="headerlink" title="2018年第一篇文章"></a>2018年第一篇文章</h1><hr><p>自从来到一个新的校区，不知道是不是水土不服还是因为朋友都不在这边，整天都是一个人，没有啥活力，健身的习惯也没有坚持了，也没有什么动力做实验搞科研，看到身边的人都在忙着，实验做得好的发了两篇sci，一只嚷着不想浪费青春的也找到了如意郎君，而我什么都没捞着，确实会有点悲伤。</p><p>一直来特别羡慕那些坚持写日记的同学，记得高一时期有个同桌坚持每天写日记，隔一段时间还会整理回顾这些日记，有次我还想偷看来着被她发现立马生气翻脸，记得当时还喜欢她来着，后来也没下文了。但是她写日记的习惯我一直记着，希望自己也能把自己的日记本给写满来ps（目前没有一本本子是写满没空纸退休的）。</p><p>似乎人们总是热衷于立各种flag，而很少有能把自己立的目标实现的，不知道是不是这个互联网时代的通病还是家庭学校没有教育好，反正我是非常深刻的认识到这个问题的严重性，我也很少立flag(😂)，希望自己从现在开始慢慢写点日记，记录自己，不至于浑浑噩噩度日而不自知。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;2018年第一篇文章&quot;&gt;&lt;a href=&quot;#2018年第一篇文章&quot; class=&quot;headerlink&quot; title=&quot;2018年第一篇文章&quot;&gt;&lt;/a&gt;2018年第一篇文章&lt;/h1&gt;&lt;hr&gt;
-&lt;p&gt;自从来到一个新的校区，不知道是不是水土不服还是因为朋友都不在这边，
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/01/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2018/01/23/我的第一篇文章/</id>
-    <published>2018-01-23T10:29:02.538Z</published>
-    <updated>2018-01-23T10:31:20.286Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用github pages服务搭建博客的好处有：</p><ol><li>全是静态文件，访问速度快；</li><li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li><li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；</li></ol><a id="more"></a><ol><li>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；</li><li>博客内容可以轻松打包、转移、发布到其它平台；</li><li>等等；</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>自从来到一个新的校区，不知道是不是水土不服还是因为朋友都不在这边，整天都是一个人，没有啥活力，健身的习惯也没有坚持了，也没有什么动力做实验搞科研，看到身边的人都在忙着，实验做得好的发了两篇sci，一只嚷着不想浪费青春的也找到了如意郎君，而我什么都没捞着，确实会有点悲伤。<br><a id="more"></a><br>一直来特别羡慕那些坚持写日记的同学，记得高一时期有个同桌坚持每天写日记，隔一段时间还会整理回顾这些日记，有次我还想偷看来着被她发现立马生气翻脸，记得当时还喜欢她来着，后来也没下文了。但是她写日记的习惯我一直记着，希望自己也能把自己的日记本给写满来ps（目前没有一本本子是写满没空纸退休的）。</p><p>似乎人们总是热衷于立各种flag，而很少有能把自己立的目标实现的，不知道是不是这个互联网时代的通病还是家庭学校没有教育好，反正我是非常深刻的认识到这个问题的严重性，我也很少立flag(😂)，希望自己从现在开始慢慢写点日记，记录自己，不至于浑浑噩噩度日而不自知。</p>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;使用github pages服务搭建博客的好处有：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;全是静态文件，访问速度快；&lt;/li&gt;
-&lt;li&gt;免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；&lt;/li&gt;
-&lt;li&gt;可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；&lt;/li&gt;
-&lt;/ol&gt;
+      &lt;p&gt;自从来到一个新的校区，不知道是不是水土不服还是因为朋友都不在这边，整天都是一个人，没有啥活力，健身的习惯也没有坚持了，也没有什么动力做实验搞科研，看到身边的人都在忙着，实验做得好的发了两篇sci，一只嚷着不想浪费青春的也找到了如意郎君，而我什么都没捞着，确实会有点悲伤。&lt;br&gt;
     
     </summary>
     
+      <category term="瞎说" scheme="http://yoursite.com/categories/%E7%9E%8E%E8%AF%B4/"/>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/tags/%E7%A7%91%E7%A0%94/"/>
     
   </entry>
   

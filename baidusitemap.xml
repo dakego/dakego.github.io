@@ -4,32 +4,24 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/01/23/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2018-01-23T15:10:15.943Z</lastmod>
+    <loc>http://yoursite.com/2018/03/17/%E7%A7%91%E7%A0%94%EF%BC%9F%E7%9E%8E%E6%90%9E/</loc>
+    <lastmod>2018-03-17T09:58:49.495Z</lastmod>
     <data>
         <display>
-        <title></title>
-        <pubTime>2018-01-23T15:12:23.534Z</pubTime>
+        <title>科研？瞎搞</title>
+        <pubTime>2018-03-17T09:31:12.000Z</pubTime>
         
+        <tag>科研</tag>
+         
          
            
+             
+              <breadCrumb title="瞎说" url="http://yoursite.com/categories/%E7%9E%8E%E8%AF%B4/"/>
+          
         </display>
     </data>
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2018/01/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2018-01-23T10:31:20.286Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2018-01-23T10:29:02.538Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
+    
 </urlset>
