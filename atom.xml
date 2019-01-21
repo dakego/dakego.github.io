@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-21T16:02:59.978Z</updated>
+  <updated>2019-01-21T17:43:13.520Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站运行逻辑</title>
+    <link href="http://yoursite.com/2019/01/22/%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E9%80%BB%E8%BE%91/"/>
+    <id>http://yoursite.com/2019/01/22/网站运行逻辑/</id>
+    <published>2019-01-21T17:08:48.000Z</published>
+    <updated>2019-01-21T17:43:13.520Z</updated>
+    
+    <content type="html"><![CDATA[<p>网站背后的运行逻辑及其简易搭建</p><p>1.浏览网页请求的背后<br>     1）解析域名【浏览器】<br>          当浏览器得知我们要访问某网站的时候，要先把对应的域名，如 www.baidu.com 解析成对应的IP地址。<br>     2)  发送请求【浏览器】<br>          得到服务器的IP后，向服务器的80号端口发送请求信息。一般该信息包含请求的页面路径，和一些服务器需要的其它信息。<br>     3)  根据请求返回数据【服务器】<br>          服务器根据浏览器的请求，返回对应的HTML数据<br>     4）解析HTML，显示页面【浏览器】<br>          浏览器收到服务器返回的数据后，根据语法解析HTML数据，然后显示出页面。<br>2.服务器搭建<br>     所谓的网站服务器，也是一台计算机，用某种软件实现了对本机80号端口的监听。如果有来自其他计算机的合法请求，就返回响应的正确数据。目前的主流 Web服务器软件有 IIS , Apache 等。这种软件都需要设置一个主目录作为WEB服务的根目录。  比如服务器设置G:WEB为根目录，那么访问<a href="http://\*\*/index.html" target="_blank" rel="noopener">http://\*\*/index.html</a>   就对应向服务器请求它G:WEB文件夹下的 index.html 文件。</p><p>   安装过程中设置好主目录，把网页文件*.html 拷贝到主目录内，然后在浏览器地址栏输入  <a href="http://127.0.0.1/你的文件名（包含后缀）" target="_blank" rel="noopener">http://127.0.0.1/你的文件名（包含后缀）</a>  如 <a href="http://127.0.0.1/index.html" target="_blank" rel="noopener">http://127.0.0.1/index.html</a> 就可以再浏览器里看到你刚刚放到主目录里的网页了。<br>3.前台网页搭建<br>     可以利用现成的前端框架如hexo<br>     也可以自行手动利用html语言搭建框架，css修饰，Javascript脚本控制</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;网站背后的运行逻辑及其简易搭建&lt;/p&gt;
+&lt;p&gt;1.浏览网页请求的背后&lt;br&gt;     1）解析域名【浏览器】&lt;br&gt;          当浏览器得知我们要访问某网站的时候，要先把对应的域名，如 www.baidu.com 解析成对应的IP地址。&lt;br&gt;     2)  发送
+      
+    
+    </summary>
+    
+    
+      <category term="建站" scheme="http://yoursite.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>虚拟机桥接模式无法上网</title>
