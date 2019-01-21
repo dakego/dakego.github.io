@@ -6,22 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。 第一步，VMware中点击“编辑”-&amp;gt;“虚拟网络编辑器”； 第二步 VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。 这时候第二步就是把桥接到的网卡选择为物理机">
+    <meta name="description" content="问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。  第一步，VMware中点击“编辑”-&amp;gt;“虚拟网络编辑器”； 第二步 VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。 这时候第二步就是把桥接到的网卡选择为物">
 <meta name="keywords" content="桥接">
 <meta property="og:type" content="article">
 <meta property="og:title" content="虚拟机桥接模式无法上网">
 <meta property="og:url" content="http://yoursite.com/2019/01/21/虚拟机桥接模式无法上网/index.html">
 <meta property="og:site_name" content="大可空间">
-<meta property="og:description" content="问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。 第一步，VMware中点击“编辑”-&amp;gt;“虚拟网络编辑器”； 第二步 VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。 这时候第二步就是把桥接到的网卡选择为物理机">
+<meta property="og:description" content="问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。  第一步，VMware中点击“编辑”-&amp;gt;“虚拟网络编辑器”； 第二步 VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。 这时候第二步就是把桥接到的网卡选择为物">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://s2.ax1x.com/2019/01/21/kiqJJg.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/01/21/kiqtzj.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/01/21/kiqYWQ.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/01/21/kiq3o8.png">
-<meta property="og:updated_time" content="2019-01-21T15:46:29.901Z">
+<meta property="og:updated_time" content="2019-01-21T16:02:59.978Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="虚拟机桥接模式无法上网">
-<meta name="twitter:description" content="问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。 第一步，VMware中点击“编辑”-&amp;gt;“虚拟网络编辑器”； 第二步 VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。 这时候第二步就是把桥接到的网卡选择为物理机">
+<meta name="twitter:description" content="问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。  第一步，VMware中点击“编辑”-&amp;gt;“虚拟网络编辑器”； 第二步 VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。 这时候第二步就是把桥接到的网卡选择为物">
 <meta name="twitter:image" content="https://s2.ax1x.com/2019/01/21/kiqJJg.png">
     
     
@@ -155,7 +155,9 @@
   
 
   <div class="content" itemprop="articleBody">
-    <p><img src="https://s2.ax1x.com/2019/01/21/kiqJJg.png" alt="kiqJJg.png"><br>问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。<br>这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。</p>
+    <p><img src="https://s2.ax1x.com/2019/01/21/kiqJJg.png" alt="kiqJJg.png"></p>
+<div style="text-indent:2em">问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。</div><br><div style="text-indent:2em">这种情况的原因可能是<strong>由于桥接模式桥接的网卡不正确</strong>，解决步骤如下。</div>
+
 <p>第一步，VMware中点击“编辑”-&gt;“虚拟网络编辑器”；<br><img src="https://s2.ax1x.com/2019/01/21/kiqtzj.png" alt="kiqtzj.png"></p>
 <p>第二步</p>
 <p>VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。</p>

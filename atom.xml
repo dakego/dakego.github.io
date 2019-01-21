@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-21T15:46:29.901Z</updated>
+  <updated>2019-01-21T16:02:59.978Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="http://yoursite.com/2019/01/21/%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%E6%97%A0%E6%B3%95%E4%B8%8A%E7%BD%91/"/>
     <id>http://yoursite.com/2019/01/21/虚拟机桥接模式无法上网/</id>
     <published>2019-01-21T15:13:49.000Z</published>
-    <updated>2019-01-21T15:46:29.901Z</updated>
+    <updated>2019-01-21T16:02:59.978Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://s2.ax1x.com/2019/01/21/kiqJJg.png" alt="kiqJJg.png"><br>问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。<br>这种情况的原因可能是由于桥接模式桥接的网卡不正确，解决步骤如下。</p><p>第一步，VMware中点击“编辑”-&gt;“虚拟网络编辑器”；<br><img src="https://s2.ax1x.com/2019/01/21/kiqtzj.png" alt="kiqtzj.png"></p><p>第二步</p><p>VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。</p><p>这时候第二步就是把桥接到的网卡选择为物理机上网的网卡。</p><p>点击电脑右下角的网络，再点击“打开网络和共享中心”，打开后选择“更改适配器设置”。<br>在连接网络的适配器下面有网卡的名称，如先森的是“本地连接”下的“Realtek PCIe GBE Family Controller”。<br>这时候就将VMware的桥接模式桥接到“Realtek PCIe GBE Family Controller”这个网卡，点击确认保存即可。<br><img src="https://s2.ax1x.com/2019/01/21/kiqYWQ.png" alt="kiqYWQ.png"><br>第三步</p><p>这时候再重启网络，即可获取到IP地址。<br><img src="https://s2.ax1x.com/2019/01/21/kiq3o8.png" alt="kiq3o8.png"></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://s2.ax1x.com/2019/01/21/kiqJJg.png" alt="kiqJJg.png"></p><div style="text-indent:2em">问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。</div><br><div style="text-indent:2em">这种情况的原因可能是<strong>由于桥接模式桥接的网卡不正确</strong>，解决步骤如下。</div><p>第一步，VMware中点击“编辑”-&gt;“虚拟网络编辑器”；<br><img src="https://s2.ax1x.com/2019/01/21/kiqtzj.png" alt="kiqtzj.png"></p><p>第二步</p><p>VMware默认的桥接模式中桥接方式为“自动”，而自动，可能就将网络桥接到其他网卡上去了，所以造成无法联网。</p><p>这时候第二步就是把桥接到的网卡选择为物理机上网的网卡。</p><p>点击电脑右下角的网络，再点击“打开网络和共享中心”，打开后选择“更改适配器设置”。<br>在连接网络的适配器下面有网卡的名称，如先森的是“本地连接”下的“Realtek PCIe GBE Family Controller”。<br>这时候就将VMware的桥接模式桥接到“Realtek PCIe GBE Family Controller”这个网卡，点击确认保存即可。<br><img src="https://s2.ax1x.com/2019/01/21/kiqYWQ.png" alt="kiqYWQ.png"><br>第三步</p><p>这时候再重启网络，即可获取到IP地址。<br><img src="https://s2.ax1x.com/2019/01/21/kiq3o8.png" alt="kiq3o8.png"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kiqJJg.png&quot; alt=&quot;kiqJJg.png&quot;&gt;&lt;br&gt;问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报错，查看IP可以看到eth0没有IP地址。&lt;br&gt;这种情况的
+        &lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kiqJJg.png&quot; alt=&quot;kiqJJg.png&quot;&gt;&lt;/p&gt;
+&lt;div style=&quot;text-indent:2em&quot;&gt;问题如上图，重启网络会在获取IP那一步等待很久（DHCP），然后报
       
     
     </summary>
@@ -46,15 +47,17 @@
     <link href="http://yoursite.com/2019/01/21/linux%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E8%87%AA%E5%8A%A8%E6%9B%BF%E6%8D%A2/"/>
     <id>http://yoursite.com/2019/01/21/linux日志文件自动替换/</id>
     <published>2019-01-21T15:12:23.000Z</published>
-    <updated>2019-01-21T15:46:49.275Z</updated>
+    <updated>2019-01-21T16:02:54.844Z</updated>
     
-    <content type="html"><![CDATA[<p><div style="text-indent:2em">如何在linux上实现自动替换日志文件</div><br>编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，<br>还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create</p><pre>vim /etc/logrotate.conf</pre> <pre>logrotate –v /etc/logrotate.conf</pre>也可以用例行性工具crontab或at<pre>0 0 * * * logrotate –v /etc/logrotate.conf</pre>]]></content>
+    <content type="html"><![CDATA[<div style="text-indent:2em">如何在linux上实现自动替换日志文件</div><p>编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，<br>还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create</p><pre>vim /etc/logrotate.conf</pre> <pre>logrotate –v /etc/logrotate.conf</pre>也可以用例行性工具crontab或at<pre>0 0 * * * logrotate –v /etc/logrotate.conf</pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;div style=&quot;text-indent:2em&quot;&gt;如何在linux上实现自动替换日志文件&lt;/div&gt;&lt;br&gt;编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 1
+        &lt;div style=&quot;text-indent:2em&quot;&gt;如何在linux上实现自动替换日志文件&lt;/div&gt;
+
+&lt;p&gt;编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k
       
     
     </summary>

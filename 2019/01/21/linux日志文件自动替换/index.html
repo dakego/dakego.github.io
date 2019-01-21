@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="如何在linux上实现自动替换日志文件编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create vim /etc/logrotate.conf  logrotate –v /etc/logrotate">
+    <meta name="description" content="如何在linux上实现自动替换日志文件  编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create vim /etc/logrotate.conf  logrotate –v /etc/logrota">
 <meta name="keywords" content="日志轮替">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux日志文件自动替换">
 <meta property="og:url" content="http://yoursite.com/2019/01/21/linux日志文件自动替换/index.html">
 <meta property="og:site_name" content="大可空间">
-<meta property="og:description" content="如何在linux上实现自动替换日志文件编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create vim /etc/logrotate.conf  logrotate –v /etc/logrotate">
+<meta property="og:description" content="如何在linux上实现自动替换日志文件  编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create vim /etc/logrotate.conf  logrotate –v /etc/logrota">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-21T15:46:49.275Z">
+<meta property="og:updated_time" content="2019-01-21T16:02:54.844Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux日志文件自动替换">
-<meta name="twitter:description" content="如何在linux上实现自动替换日志文件编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create vim /etc/logrotate.conf  logrotate –v /etc/logrotate">
+<meta name="twitter:description" content="如何在linux上实现自动替换日志文件  编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create vim /etc/logrotate.conf  logrotate –v /etc/logrota">
     
     
         
@@ -152,7 +152,9 @@
   
 
   <div class="content" itemprop="articleBody">
-    <p><div style="text-indent:2em">如何在linux上实现自动替换日志文件</div><br>编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，<br>还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create</p>
+    <div style="text-indent:2em">如何在linux上实现自动替换日志文件</div>
+
+<p>编辑 /etc/logrotate.conf 文件 修改成按时间轮替如daily,weekly,monthly或按文件大小轮替如达到1M才进行轮替size 10k，<br>还可以修改保留日志文件的个数如rotate 5，还有其他的参数compress,create</p>
 <pre>vim /etc/logrotate.conf</pre> 
 <pre>logrotate –v /etc/logrotate.conf</pre>
 也可以用例行性工具crontab或at
